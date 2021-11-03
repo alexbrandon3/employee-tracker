@@ -30,7 +30,6 @@ class GetInfo {
         },
       ])
       .then((decision) => {
-        console.log(decision)
         switch (decision.choice) {
           case "View all departments":
             this.viewDepartments();
